@@ -5,3 +5,15 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mehidealways/hero-code.git
 git push -u origin main
+
+
+
+
+.menu{
+  display: flex;
+  list-style: none;
+  gap: 51px;
+}
+.menu a {
+text-decoration: none;
+}
