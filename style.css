@@ -5,7 +5,11 @@
 }
 
 /* Common style */
-
+.container{
+   width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .font-open-sans {
   font-family: 'Open Sans', sans-serif;
   font-optical-sizing: auto;
@@ -83,10 +87,7 @@ header {
   padding-top: 50px;
 }
 nav {
-  width: 71%;
-  max-width: 1140px;
-  /* border: 1px solid red; */
-  margin: 0 auto;
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,9 +145,7 @@ nav {
   padding-top: 130px;
 }
 #about .about-container {
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
+
   text-align: center;
   background-color: #fff8f3;
   padding: 131px 156px;
@@ -168,11 +167,7 @@ nav {
 
 /* Whai I do section */
 
-#skill .skills-container {
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
-}
+
 #skill .skills-container .skill-box {
   display: flex;
   gap: 24px;
